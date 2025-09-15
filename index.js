@@ -74,4 +74,5 @@ git commit -m "feat: message"
 
 git remote
 git remote add origin LINK
+git push origin master
 */
