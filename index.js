@@ -57,3 +57,14 @@ const log = console.log;
 log(chalk.blue("Hello ") + randomString + chalk.red("!")); */
 
 // Module Package FILE
+
+/* 
+
+git init
+git status
+
+git add .
+git status
+git commit -m "feat: message"
+
+*/
