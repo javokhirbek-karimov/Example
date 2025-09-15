@@ -1,5 +1,10 @@
 // Module Package CORE
 
+const moment = require("moment");
+const time = moment().format();
+
+console.log("time:", time);
+
 /* setTimeout(() => {
   console.log("Ishga tushdi");
 }, 5000); */
@@ -67,4 +72,6 @@ git add .
 git status
 git commit -m "feat: message"
 
+git remote
+git remote add origin LINK
 */
