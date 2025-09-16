@@ -1,9 +1,9 @@
 // Module Package CORE
 
-const moment = require("moment");
-const time = moment().format();
+/* const moment = require("moment");
+const time = moment().format("HH.mm.ss"); 
 
-console.log("time:", time);
+console.log("time:", time); */
 
 /* setTimeout(() => {
   console.log("Ishga tushdi");
@@ -61,8 +61,6 @@ const log = console.log;
 
 log(chalk.blue("Hello ") + randomString + chalk.red("!")); */
 
-// Module Package FILE
-
 /* 
 
 git init
@@ -76,3 +74,29 @@ git remote
 git remote add origin LINK
 git push origin master
 */
+
+// Module Package FILE
+
+/* const calculate = require("./hisob.js");
+
+const natija1 = calculate.kopaytirish(24, 45);
+console.log("natija: ", natija1);
+console.log("=========");
+
+const natija2 = calculate.qoshish(24, 45);
+console.log("natija: ", natija2);
+console.log("=========");
+
+const natija3 = calculate.bolish(270, 45);
+console.log("natija: ", natija3);
+console.log("========="); */
+const Account = require("./account.js");
+Account.tellMeAboutClass();
+
+console.log("============");
+const myAccount = new Account("Khan", 200000, 749337728283);
+myAccount.giveMeDetails();
+myAccount.makeDeposit(300000);
+myAccount.withdrawal(1000000);
+myAccount.withdrawal(400000);
+myAccount.makeDeposit(200000);
